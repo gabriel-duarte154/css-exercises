@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #aaa;
+  color: #333;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.modal {
+
+    display: flex;
+    width: 480px;
+    gap: 15px;
+    background-color: white;
+    border-radius: 15px ;
+    padding: 15px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.199);
+    flex-wrap: wrap;
+}
+.icon {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(224, 224, 248);
+    color: rgb(63, 63, 221);
+    font-size: 1.6em;
+    justify-content: center;
+    align-items: center ;
+    padding: 5px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+
+}
+.header {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.close {
+
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    background-color: rgb(223, 221, 221);
+    color: #8d8c8c;
+    border-radius: 50%;
+    padding: 2px;
+    font-weight: 900;
+}
+.text {
+
+    font-size: 0.88em;
+}
+button {
+
+    margin-top: 15px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid royalblue;
+}
+.continue {
+
+    background-color: royalblue;
+    color: white;
+}
+.cancel {
+
+    background-color: white;
+    color: royalblue;
+}
+
