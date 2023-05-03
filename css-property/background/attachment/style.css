@@ -1,0 +1,19 @@
+.wrapper {
+    margin: auto;
+    background: url(https://seeklogo.com/images/F/firefox-2019-new-logo-3CC1151537-seeklogo.com.png);
+    width: 500px;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 300px;
+    overflow: scroll;
+    background-attachment: fixed;
+    /* background-attachment: local;
+    background-attachment: scroll; */
+}
+.wrapper::-webkit-scrollbar {
+    width: 2px;
+}
+
+p {
+    font-size: 3rem;
+}

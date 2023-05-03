@@ -1,0 +1,26 @@
+.container {
+    border: 3px solid black;
+    width: 600px;
+    padding: 20px;
+}
+
+/*childs*/
+.container > .childs {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.container > .childs > .grand-childs {
+    border: 1px solid red;
+    height: 200px;
+    background-color: black;
+}
+
+/*sibling*/
+.first + div{
+    background-color: blueviolet;
+}
+
+.first ~ div {
+    box-shadow: inset 1px 1px 5px 1px  white;
+}

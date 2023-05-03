@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 300vh;
+}
+dl {
+    margin-left: 200px;
+    height: 500px;
+    overflow-y: scroll;
+    width: 400px;
+}
+
+dl > div {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+   
+}
+
+dt {
+    border: 1px solid grey;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 20px;
+    background-color: grey;
+    position: sticky;
+    top: 0;
+}
+
+dd {
+    margin-inline-start: 10px;
+    padding: 10px;
+}
+
+dd + dd {
+    border-top: 1px solid grey;
+}

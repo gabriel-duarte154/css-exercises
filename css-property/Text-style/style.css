@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+.wrapper {
+    width: 20vw;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
