@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template: 50px / 50px 50px ;
+    row-gap: 5px;
+    column-gap: 10px;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 50px;
+    grid-auto-flow: column;
+}
+
+.container > * {
+    border: 2px solid rgb(49, 49, 236);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
